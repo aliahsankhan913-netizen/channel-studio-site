@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Channel Studio - login code</title>
+<style>body{font:17px/1.6 system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 20px;color:#222}
+code{display:block;word-break:break-all;background:#f3f3f3;padding:14px;border-radius:8px;font-size:15px;margin:12px 0}
+button{font-size:16px;padding:10px 18px;border-radius:8px;border:0;background:#0b57d0;color:#fff;cursor:pointer}</style></head><body>
+<h1>Login code</h1>
+<p id="msg">Copy this code and paste it into the Channel Studio setup window.</p>
+<code id="code">(no code in this link)</code>
+<button id="copy">Copy code</button>
+<p style="color:#666;font-size:14px">This page only shows the code from the link you were sent back with. It does not store or send anything.</p>
+<script>
+const q=new URLSearchParams(location.search); const c=q.get('code'); const err=q.get('error_description')||q.get('error');
+if(c){document.getElementById('code').textContent=c.split('#')[0];}
+else if(err){document.getElementById('msg').textContent='The login did not finish: '+err;}
+document.getElementById('copy').onclick=()=>{navigator.clipboard.writeText(document.getElementById('code').textContent);document.getElementById('copy').textContent='Copied';};
+</script></body></html>
