@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>Candlelit Chronicles: History for Sleep</title>
+  <link>https://www.youtube.com/@CandlelitChroniclesTV</link>
+  <language>en-gb</language>
+  <description>Slow, calm journeys through ordinary life in the past, told gently so you can drift off to sleep. New episode every week. Narration and illustrations are AI-assisted.</description>
+  <itunes:author>Candlelit Chronicles</itunes:author>
+  <itunes:owner><itunes:name>Candlelit Chronicles</itunes:name><itunes:email>channelstudiohq@outlook.com</itunes:email></itunes:owner>
+  <itunes:image href="https://aliahsankhan913-netizen.github.io/channel-studio-site/podcast/cover.jpg"/>
+  <itunes:category text="History"/>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Medieval Winter Night</title>
+    <description>Journey back to a fourteenth-century longhouse to discover how our ancestors stayed warm during the coldest nights of the year. From the communal heat of livestock to the science of the central hearth, explore the quiet, sensory details of medieval winter life. Sources include historical records of domestic architecture and textile history from the Middle Ages.</description>
+    <enclosure url="https://aliahsankhan913-netizen.github.io/channel-studio-site/podcast/2026-11-26_candle_how_people_kept_warm_through_a_m.mp3" length="12403293" type="audio/mpeg"/>
+    <guid isPermaLink="false">2026-11-26_candle_how_people_kept_warm_through_a_m</guid>
+    <pubDate>Mon, 23 Nov 2026 21:00:00 +0000</pubDate>
+    <itunes:duration>1550</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+</channel>
+</rss>
